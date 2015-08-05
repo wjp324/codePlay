@@ -1,0 +1,43 @@
+#{extends 'main.html' /}
+#{set title:'Item Details' /}
+
+#{set 'moreStyles'}
+    <link rel="stylesheet" href="@{'/public/stylesheets/bootstrap.min.css'}" />
+#{/set}
+
+#{set 'moreScripts'}
+    <script src="@{'/public/javascripts/bootstrap.min.js'}"></script>
+#{/set}
+
+<div class="container row">
+    <div class="col-md-6">
+        <a>
+            <img src="@{'/public/images/2.jpg'}" alt="2" />
+            <p><h2>Peter Bielous</h2></p>
+        </a>
+    </div>
+    <div class="col-md-6">
+        <table class="table table-hover">
+            <tr>
+                <td>Name</td>
+                <td>Peter Bielous</td>
+            </tr>
+            <tr>
+                <td>Tags</td>
+                <td>Bags</td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>$ 49.99</td>
+            </tr>
+            <tr>
+                <td>Contact Me</td>
+                <td>easybuy@ebay.com</td>
+            </tr>
+            <tr>
+                <td>Detail</td>
+                <td>This is a bag designed by Peter Bielous. ninety per cent new</td>
+            </tr>
+        </table>
+    </div>
+</div>

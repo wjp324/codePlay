@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Denk+One);
+@import url(http://fonts.googleapis.com/css?family=Henny+Penny);
+
+*, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	outline: none;
+	border: none;
+	margin: 0 auto;
+	opacity: 0.8;
+	-webkit-transition: opacity .5s linear;
+	-moztransition: opacity .5s linear;
+	-o-transition: opacity .5s linear;
+	transition: opacity .5s linear;
+}
+
+.header {
+	text-align: center;
+	font-family: 'Denk One', sans-serif;
+}
+
+.container {
+	font-family: 'Henny Penny', cursive;
+	max-width: 1200px;
+	margin: 100px auto;
+	padding: 0 auto;
+}
+
+.container ul .item {
+	text-align: center;
+	border-radius: 10px;
+	display: block;
+	width: 32%;
+	padding: 8px;
+	margin: 7px 5px;
+}
+
+.green {
+	background-color: rgb(101, 198, 187);
+}
+
+.blue {
+	background-color: rgb(137, 196, 244);
+}
+
+.red {
+	background-color: rgb(217, 30, 24);
+}
+
+.item img:hover {
+	opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+	.container ul .item {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.container ul .item {
+		width: 100%;
+	}
+}
+
+#showDetail {
+	display:none;
+	background:rgba(0,0,0,0.73);
+	width:100%;
+	height:100%; 
+	position:fixed;
+	top:0;
+}
+
+#detail {
+	background:white;
+	position:fixed; 
+	width:60%;
+	left:20%;
+	height:500px;
+	top:100px;
+}
+
+#detail img{
+	height:400px;
+}

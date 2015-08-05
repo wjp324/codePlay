@@ -1,0 +1,103 @@
+#{extends 'main.html' /}
+#{set title:'You sell Me buy' /}
+
+
+#{set 'moreStyles'}
+    <link rel="stylesheet" href="@{'/public/stylesheets/normalize.css'}" />
+#{/set}
+
+<section class="header">
+    <h1>Demo Masonry Layout - Best Quotes for Designers</h1>
+    <h3>Designed by {UNS}_Mikun</h3>
+</section>	<!-- end header -->
+
+<section class="container">
+    <ul>
+        <li class="item red">
+            <a href="https://www.behance.net/gallery/Oscar-Wilde/9330545">
+                <img src="@{'/public/images/1.jpg'}" alt="1" />
+                <p>Dewald Venter</p>
+            </a>
+        </li>
+        <li class="item green">
+            <a href="/detail">
+                <img src="@{'/public/images/2.jpg'}" alt="2" />
+                <p>Peter Bielous</p>
+            </a>
+        </li>
+        <li class="item blue">
+            <a href="https://www.behance.net/gallery/Saul-Bass-Poster/5623933">
+                <img src="@{'/public/images/3.jpg'}" alt="3" />
+                <p>Brittany Krebs</p>
+            </a>
+        </li>
+        <li class="item green">
+            <a href="https://www.behance.net/gallery/Type-Posters-Inspirational-Quotes/5391679">
+                <img src="@{'/public/images/4.jpg'}" alt="4" />
+                <p>Ben Fearnley</p>
+            </a>
+        </li>
+        <li class="item blue">
+            <a href="https://www.behance.net/gallery/Do-what-you-can/10092743">
+                <img src="@{'/public/images/5.jpg'}" alt="5" />
+                <p>Jessie Schneider</p>
+            </a>
+        </li>
+        <li class="item blue">
+            <a href="https://www.behance.net/gallery/What-I-dont-Know/10474405">
+                <img src="@{'/public/images/6.jpg'}" alt="6" />
+                <p>Joshua Duthie</p>
+            </a>
+        </li>
+        <li class="item blue">
+            <a href="https://www.behance.net/gallery/Uni-Project-Typeset-First-Semester/10510949">
+                <img src="@{'/public/images/7.jpg'}" alt="7" />
+                <p>Robert McCluskey</p>
+            </a>
+        </li>
+        <li class="item red">
+            <a href="https://www.behance.net/gallery/Blackboard-Typography/11047481">
+                <img src="@{'/public/images/8.jpg'}" alt="8" />
+                <p>Vashti Barker</p>
+            </a>
+        </li>
+        <li class="item green">
+            <a href="https://www.behance.net/gallery/The-core-of-mans-spirit/2101430">
+                <img src="@{'/public/images/9.jpg'}" alt="9" />
+                <p>Richard Hedberg</p>
+            </a>
+        </li>
+        <li class="item blue">
+            <a href="https://www.behance.net/gallery/Iron-Man/10736129">
+                <img src="@{'/public/images/10.jpg'}" alt="10" />
+                <p>Kat Bacasmas</p>
+            </a>
+        </li>
+        <li class="item red">
+            <a href="https://www.behance.net/gallery/Every-Artist-was-First-an-Amateur/2086512">
+                <img src="@{'/public/images/11.jpg'}" alt="11" />
+                <p>Jeremy Burns</p>
+            </a>
+        </li>
+        <li class="item green">
+            <a href="https://www.behance.net/gallery/Directions-Wallpaper-Freebie/10967337">
+                <img src="@{'/public/images/12.jpg'}" alt="12" />
+                <p>Consider Graphic Design Studio</p>
+            </a>
+        </li>
+    </ul>
+</section>	<!-- end container -->
+
+<!--div id="showDetail">
+    <div id="detail">
+        <img />
+        <p></p>
+    </div>
+</div-->
+
+#{set 'moreScripts'}
+    <script src="@{'/public/javascripts/html5shiv.js'}"></script>
+    <script src="@{'/public/javascripts/main.js'}"></script>
+    <script src="@{'/public/javascripts/masonry.min.js'}"></script>
+    <script src="@{'/public/javascripts/jquery.imagesloaded.min.js'}"></script>
+#{/set}
