@@ -40,8 +40,8 @@ public class Application extends Controller {
 		render();
 	}
 	
-	public static void upload(){
-		 render();
+	public static void upload(File attachment){
+		render();
 	}
 	
 	public static void uploading(File attachment){
