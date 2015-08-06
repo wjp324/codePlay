@@ -119,13 +119,3 @@ Item(i11):
   sell: false
   soldpeople: null
   
-Item(i12):
-  name: test
-  tag: fuck
-  price: 99.99
-  picture: 13.jpg
-  email: bamboo@jiljiang.com
-  details: It's a good show
-  bid: false
-  sell: false
-  soldpeople: null
