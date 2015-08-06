@@ -1,8 +1,10 @@
 package controllers;
 
 import play.*;
+import play.libs.Files;
 import play.mvc.*;
 
+import java.io.File;
 import java.util.*;
 
 import models.*;
@@ -31,6 +33,23 @@ public class Application extends Controller {
 		renderArgs.put("items", items);
 		render();
 	}
+	
+	public static void sellList(){
+		List<Item> items = Item.find("sell = ?", true).fetch();
+		renderArgs.put("items", items);
+		render();
+	}
+	
+	public static void upload(){
+		 render();
+	}
+	
+	public static void uploading(File attachment){
+		if(attachment != null)
+			Files.copy(attachment, Play.getFile("public/images/"+(new Date()).toString())); 
+		 render();
+	}
+	
 	public static void createItem(String name){
 		Item item = new Item();
 		item.name = name;

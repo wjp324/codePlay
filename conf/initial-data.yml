@@ -6,6 +6,8 @@ Item(i1):
   email: bamboo@jiljiang.com
   details: It's a good show.It's a good show.It's a good show.It's a good show.It's a good show.It's a good show
   bid: false
+  sell: true
+  soldpeople: Edd Stark
 
 Item(i2):
   name: test
@@ -15,6 +17,8 @@ Item(i2):
   email: bamboo@jiljiang.com
   details: It's a good show
   bid: false
+  sell: false
+  soldpeople: null
 
 Item(i3):
   name: test
@@ -24,6 +28,8 @@ Item(i3):
   email: bamboo@jiljiang.com
   details: It's a good show
   bid: false
+  sell: true
+  soldpeople: John Snow
   
 Item(i4):
   name: test
@@ -33,6 +39,8 @@ Item(i4):
   email: bamboo@jiljiang.com
   details: It's a good show
   bid: false
+  sell: false
+  soldpeople: null
   
 Item(i5):
   name: test
@@ -42,6 +50,8 @@ Item(i5):
   email: bamboo@jiljiang.com
   details: It's a good show
   bid: false
+  sell: false
+  soldpeople: null
   
 Item(i6):
   name: test
@@ -51,6 +61,8 @@ Item(i6):
   email: bamboo@jiljiang.com
   details: It's a good show
   bid: false
+  sell: false
+  soldpeople: null
 
 Item(i7):
   name: test
@@ -60,6 +72,8 @@ Item(i7):
   email: bamboo@jiljiang.com
   details: It's a good show
   bid: false
+  sell: false
+  soldpeople: null
   
 Item(i8):
   name: test
@@ -69,6 +83,8 @@ Item(i8):
   email: bamboo@jiljiang.com
   details: It's a good show
   bid: false
+  sell: false
+  soldpeople: null
   
 Item(i9):
   name: test
@@ -78,6 +94,8 @@ Item(i9):
   email: bamboo@jiljiang.com
   details: It's a good show
   bid: false
+  sell: false
+  soldpeople: null
   
 Item(i10):
   name: test
@@ -87,6 +105,8 @@ Item(i10):
   email: bamboo@jiljiang.com
   details: It's a good show
   bid: false
+  sell: false
+  soldpeople: null
   
 Item(i11):
   name: test
@@ -96,3 +116,5 @@ Item(i11):
   email: bamboo@jiljiang.com
   details: It's a good show
   bid: false
+  sell: false
+  soldpeople: null

@@ -11,6 +11,12 @@ GET     /detail                                 Application.detail
 # My BID
 GET     /mybid                                  Application.mybid
 
+# My Sold
+GET     /sellList                               Application.sellList
+
+# Photo Upload
+GET     /upload                                 Application.upload
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 

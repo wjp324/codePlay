@@ -1,0 +1,31 @@
+#{extends 'main.html' /}
+#{set title:'Photo Upload' /}
+
+#{set 'moreStyles'}
+    <link rel="stylesheet" href="@{'/public/stylesheets/bootstrap.min.css'}" />
+#{/set}
+
+#{set 'moreScripts'}
+    <script src="@{'/public/javascripts/bootstrap.min.js'}"></script>
+#{/set}
+
+<section class="header">
+    <h1>Photo Upload</h1>
+    <h3>Designed by Harper Koo</h3>
+</section>	<!-- end header -->
+
+<section class="container">
+
+<div class="container row">
+    <div class="col-md-6">
+         <h2>Please upload the item photo you want to sell</h2>
+         <div>
+            <form action="@{Application.uploading(file)}" method="POST"> 
+            <input type="file" id="file" name="file"/>
+            <button class="col-md-2 col-md-offset-5 btn btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</section>

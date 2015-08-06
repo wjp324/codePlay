@@ -24,4 +24,6 @@ public class Item extends Model {
     public String email;
     public String details;
     public boolean bid = false;
+    public boolean sell = false;
+    public String soldpeople;
 }

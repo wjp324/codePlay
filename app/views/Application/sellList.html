@@ -1,0 +1,60 @@
+#{extends 'main.html' /}
+#{set title:'My Sold' /}
+
+#{set 'moreStyles'}
+    <link rel="stylesheet" href="@{'/public/stylesheets/bootstrap.min.css'}" />
+#{/set}
+
+#{set 'moreScripts'}
+    <script src="@{'/public/javascripts/bootstrap.min.js'}"></script>
+#{/set}
+
+
+<section class="header">
+    <h1>My BID</h1>
+    <h3>Designed by Harper Koo</h3>
+    <a href="@{Application.index()}">
+		<p class="clickJump">Back to Market</p>
+	</a>
+</section>	<!-- end header -->
+
+<section class="container">
+   	#{list items:items, as:'item'}
+<div class="container row">
+    <div class="col-md-6">
+        <a>
+            <img src="public/images/${item.picture}" alt="2" />
+            <h2>${item.name}</h2>
+        </a>
+    </div>
+    <div class="col-md-6">
+        <table class="table table-hover">
+            <tr>
+                <td>Name</td>
+                <td>${item.name}</td>
+            </tr>
+            <tr>
+                <td>Tags</td>
+                <td>${item.tag}</td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>$ ${item.price}</td>
+            </tr>
+            <tr>
+                <td>Contact Me</td>
+                <td>${item.email}</td>
+            </tr>
+            <tr>
+                <td>Detail</td>
+                <td>${item.details}</td>
+            </tr>
+            <tr>
+                <td>SoldTo</td>
+                <td>${item.soldpeople}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+	#{/list}
+</section>
