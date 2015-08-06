@@ -1,5 +1,5 @@
 #{extends 'main.html' /}
-#{set title:'Item Details' /}
+#{set title:'My Bid' /}
 
 #{set 'moreStyles'}
     <link rel="stylesheet" href="@{'/public/stylesheets/bootstrap.min.css'}" />
@@ -9,20 +9,17 @@
     <script src="@{'/public/javascripts/bootstrap.min.js'}"></script>
 #{/set}
 
+
 <section class="header">
-    <h1>Item Details</h1>
+    <h1>My BID</h1>
     <h3>Designed by Harper Koo</h3>
     <a href="@{Application.index()}">
 		<p class="clickJump">Back to Market</p>
 	</a>
-    <a href="@{Application.mybid()}">
-		<p class="clickJump">MY BID</p>
-	</a>
 </section>	<!-- end header -->
 
-
 <section class="container">
-
+   	#{list items:items, as:'item'}
 <div class="container row">
     <div class="col-md-6">
         <a>
@@ -30,7 +27,7 @@
             <h2>${item.name}</h2>
         </a>
     </div>
-    <div class="col-md-6 detaiText" style="font-size:28px;">
+    <div class="col-md-6">
         <table class="table table-hover">
             <tr>
                 <td>Name</td>
@@ -53,21 +50,7 @@
                 <td>${item.details}</td>
             </tr>
         </table>
-        <a href="@{Application.detail(item.id, !item.bid)}" id="bid">
-            <h1>BID ME</h1>
-        </a>
-        <a href="@{Application.index()}" id="bid">
-            <h1>Not Interested</h1>
-        </a>
     </div>
 </div>
+	#{/list}
 </section>
-<script>
-	setTimeout(function() {
-		$(document).ready(function() {
-			$("#bid").click(function() {
-				alert("Already bid it!");
-			});
-		});
-	}, 1);
-</script>

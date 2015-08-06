@@ -5,8 +5,11 @@
 # Home page
 GET     /                                       Application.index
 
-# Home page
+# Detail
 GET     /detail                                 Application.detail
+
+# My BID
+GET     /mybid                                  Application.mybid
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

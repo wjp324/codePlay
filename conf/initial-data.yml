@@ -4,7 +4,7 @@ Item(i1):
   price: 99.99
   picture: 1.jpg
   email: bamboo@jiljiang.com
-  details: It's a good show
+  details: It's a good show.It's a good show.It's a good show.It's a good show.It's a good show.It's a good show
   bid: false
 
 Item(i2):

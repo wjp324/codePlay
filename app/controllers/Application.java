@@ -26,8 +26,14 @@ public class Application extends Controller {
 		render();
 	}
 
+	public static void mybid(){
+		List<Item> items = Item.find("bid = ?", true).fetch();
+		renderArgs.put("items", items);
+		render();
+	}
 	public static void createItem(String name){
 		Item item = new Item();
 		item.name = name;
+		item.save();
 	}
 }

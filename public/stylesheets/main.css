@@ -35,6 +35,14 @@ img {
 	font-family: 'Denk One', sans-serif;
 }
 
+.header .clickJump{
+	text-align: right;
+	padding-right:20%; 
+	font-size:36px;
+	color:rgb(137, 196, 244);
+	text-decoration: underline;
+}
+
 .container {
 	font-family: 'Denk One', sans-serif;
 	max-width: 1200px;
