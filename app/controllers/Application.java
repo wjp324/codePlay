@@ -46,9 +46,9 @@ public class Application extends Controller {
 	
 	public static void uploading(File attachment){
 		if(attachment != null){  
-	        Files.copy(attachment, Play.getFile("public/images/11.jpg")); 
+	        Files.copy(attachment, Play.getFile("public/images/"+attachment.getName())); 
 	        renderArgs.put("attachment", attachment);
-	        renderArgs.put("attachment2", Play.getFile("public/images/11.jpg"));
+	        renderArgs.put("attachment2", Play.getFile("public/images/"+attachment.getName()));
 	        render();  
 	    }
 	}
