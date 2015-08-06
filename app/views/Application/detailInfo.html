@@ -1,0 +1,50 @@
+#{extends 'main.html' /}
+#{set title:'Detail Info' /}
+
+#{set 'moreStyles'}
+    <link rel="stylesheet" href="@{'/public/stylesheets/bootstrap.min.css'}" />
+#{/set}
+
+#{set 'moreScripts'}
+    <script src="@{'/public/javascripts/bootstrap.min.js'}"></script>
+#{/set}
+
+<div class="container row">
+    <div class="col-md-6">
+        <a>
+            <img src="../public/images/${fileName}" alt="2" />
+        </a>
+    </div>
+    <div class="col-md-6">
+      <form enctype="multipart/form-data"  action="@{Application.createItem()}" method="POST">
+        <table class="table table-hover">
+            <tr>
+                <td>Name:<input class="form-control" style="width:200px;" name="name"/></td>
+            </tr>
+            <tr>
+                <td>Tags:<input class="form-control" style="width:200px;" name="tag"/></td>
+            </tr>
+            <tr>
+                <td>Price:<input class="form-control" style="width:200px;" name="price"/></td>
+            </tr>
+            <tr>
+                <td>Contact Me:<input class="form-control" style="width:200px;" name="contact"/></td>
+            </tr>
+            <tr>
+                <td>Detail:<input class="form-control" style="width:200px;" name="detail"/><input value="${fileName}" name="fileName" style="display:none"/></td>
+            </tr>
+        </table>
+        <input type="submit" value = "submit" class="col-md-2 col-md-offset-5 btn btn-default"/>
+      </form>
+    </div>
+</div>
+
+<script>
+	setTimeout(function() {
+		$(document).ready(function() {
+			$("#bid").click(function() {
+				alert("Con! Bitch!");
+			});
+		});
+	}, 1);
+</script>
