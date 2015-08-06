@@ -45,14 +45,28 @@ public class Application extends Controller {
 	}
 	
 	public static void uploading(File attachment){
-		if(attachment != null)
-			Files.copy(attachment, Play.getFile("public/images/"+(new Date()).toString())); 
-		 render();
+		if(attachment != null){
+			Files.copy(attachment, Play.getFile("public/images/"+attachment.getName())); 
+		}
+		detailInfo(attachment.getName());
 	}
 	
-	public static void createItem(String name){
+	public static void detailInfo(String name){
+		renderArgs.put("fileName", name);
+		render();
+	}
+	
+	public static void createItem(String name, String tag,String price,String contact,String detail,String fileName){
 		Item item = new Item();
 		item.name = name;
+		item.tag = tag;
+		item.price = Float.parseFloat(price);
+		item.email = contact;
+		item.details = detail;
+		item.picture = fileName;
 		item.save();
+		index();
+		
+		
 	}
 }
