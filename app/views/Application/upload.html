@@ -20,9 +20,9 @@
     <div class="col-md-6">
          <h2>Please upload the item photo you want to sell</h2>
          <div>
-            <form action="@{Application.uploading(file)}" method="POST"> 
-            <input type="file" id="file" name="file"/>
-            <button class="col-md-2 col-md-offset-5 btn btn-default">Submit</button>
+            <form enctype="multipart/form-data" action="@{Application.uploading()}" method="POST"> 
+            <input type="file" id="attachment" name="attachment"/>
+            <input type="submit" class="col-md-2 col-md-offset-5 btn btn-default value="Submit"/>
             </form>
         </div>
     </div>

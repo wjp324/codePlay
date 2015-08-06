@@ -40,14 +40,17 @@ public class Application extends Controller {
 		render();
 	}
 	
-	public static void upload(){
-		 render();
+	public static void upload(File attachment){
+		render();
 	}
 	
 	public static void uploading(File attachment){
-		if(attachment != null)
-			Files.copy(attachment, Play.getFile("public/images/"+(new Date()).toString())); 
-		 render();
+		if(attachment != null){  
+	        Files.copy(attachment, Play.getFile("public/images/11.jpg")); 
+	        renderArgs.put("attachment", attachment);
+	        renderArgs.put("attachment2", Play.getFile("public/images/11.jpg"));
+	        render();  
+	    }
 	}
 	
 	public static void createItem(String name){

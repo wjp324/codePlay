@@ -16,6 +16,8 @@ GET     /sellList                               Application.sellList
 
 # Photo Upload
 GET     /upload                                 Application.upload
+POST      /upload                                 Application.upload
+POST     /uploading                                 Application.uploading
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
