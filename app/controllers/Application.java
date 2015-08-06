@@ -9,12 +9,25 @@ import models.*;
 
 public class Application extends Controller {
 
-    public static void index() {
-        render();
-    }
+	public static void index() {
+		List<Item> items = Item.find("bid = ?", false).fetch();
+		renderArgs.put("items", items);
+		render();
+	}
 
-    public static void detail() {
-            render();
-    }
+	public static void detail(long id, boolean bid) {
+		Item item = Item.findById(id);
+		if(bid) {
+			item.bid = bid;
+			item.save();
+			index();
+		}
+		renderArgs.put("item", item);
+		render();
+	}
 
+	public static void createItem(String name){
+		Item item = new Item();
+		item.name = name;
+	}
 }

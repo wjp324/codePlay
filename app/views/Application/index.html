@@ -11,9 +11,18 @@
     <h3>Designed by {UNS}_Mikun</h3>
 </section>	<!-- end header -->
 
+
 <section class="container">
     <ul>
-        <li class="item red">
+    	#{list items:items, as:'item'}
+    		<li class="item ${Math.random() < 0.33 ? 'red' : (Math.random() < 0.5 ? 'blue' : 'green')}">
+	            <a href="@{Application.detail(item.id)}">
+	                <img src="public/images/${item.picture}" alt="1" />
+	                <p>${item.name}</p>
+	            </a>
+	        </li>
+		#{/list}
+        <!-- li class="item red">
             <a href="https://www.behance.net/gallery/Oscar-Wilde/9330545">
                 <img src="@{'/public/images/1.jpg'}" alt="1" />
                 <p>Dewald Venter</p>
@@ -84,7 +93,7 @@
                 <img src="@{'/public/images/12.jpg'}" alt="12" />
                 <p>Consider Graphic Design Studio</p>
             </a>
-        </li>
+        </li-->
     </ul>
 </section>	<!-- end container -->
 

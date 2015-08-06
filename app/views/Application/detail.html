@@ -12,35 +12,45 @@
 <div class="container row">
     <div class="col-md-6">
         <a>
-            <img src="@{'/public/images/2.jpg'}" alt="2" />
-            <p><h2>Peter Bielous</h2></p>
+            <img src="public/images/${item.picture}" alt="2" />
+            <h2>${item.name}</h2>
         </a>
     </div>
     <div class="col-md-6">
         <table class="table table-hover">
             <tr>
                 <td>Name</td>
-                <td>Peter Bielous</td>
+                <td>${item.name}</td>
             </tr>
             <tr>
                 <td>Tags</td>
-                <td>Bags</td>
+                <td>${item.tag}</td>
             </tr>
             <tr>
                 <td>Price</td>
-                <td>$ 49.99</td>
+                <td>$ ${item.price}</td>
             </tr>
             <tr>
                 <td>Contact Me</td>
-                <td>easybuy@ebay.com</td>
+                <td>${item.email}</td>
             </tr>
             <tr>
                 <td>Detail</td>
-                <td>This is a bag designed by Peter Bielous. ninety per cent new</td>
+                <td>${item.details}</td>
             </tr>
         </table>
-        <a>
-            <p><h1>BID ME</h1></p>
+        <a href="@{Application.detail(item.id, !item.bid)}" id="bid">
+            <h1>BID ME</h1>
         </a>
     </div>
 </div>
+
+<script>
+	setTimeout(function() {
+		$(document).ready(function() {
+			$("#bid").click(function() {
+				alert("Con! Bitch!");
+			});
+		});
+	}, 1);
+</script>

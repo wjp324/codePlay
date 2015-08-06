@@ -1,0 +1,98 @@
+Item(i1):
+  name: test
+  tag: fuck
+  price: 99.99
+  picture: 1.jpg
+  email: bamboo@jiljiang.com
+  details: It's a good show
+  bid: false
+
+Item(i2):
+  name: test
+  tag: fuck
+  price: 99.99
+  picture: 2.jpg
+  email: bamboo@jiljiang.com
+  details: It's a good show
+  bid: false
+
+Item(i3):
+  name: test
+  tag: fuck
+  price: 99.99
+  picture: 3.jpg
+  email: bamboo@jiljiang.com
+  details: It's a good show
+  bid: false
+  
+Item(i4):
+  name: test
+  tag: fuck
+  price: 99.99
+  picture: 4.jpg
+  email: bamboo@jiljiang.com
+  details: It's a good show
+  bid: false
+  
+Item(i5):
+  name: test
+  tag: fuck
+  price: 99.99
+  picture: 5.jpg
+  email: bamboo@jiljiang.com
+  details: It's a good show
+  bid: false
+  
+Item(i6):
+  name: test
+  tag: fuck
+  price: 99.99
+  picture: 6.jpg
+  email: bamboo@jiljiang.com
+  details: It's a good show
+  bid: false
+
+Item(i7):
+  name: test
+  tag: fuck
+  price: 99.99
+  picture: 7.jpg
+  email: bamboo@jiljiang.com
+  details: It's a good show
+  bid: false
+  
+Item(i8):
+  name: test
+  tag: fuck
+  price: 99.99
+  picture: 8.jpg
+  email: bamboo@jiljiang.com
+  details: It's a good show
+  bid: false
+  
+Item(i9):
+  name: test
+  tag: fuck
+  price: 99.99
+  picture: 9.jpg
+  email: bamboo@jiljiang.com
+  details: It's a good show
+  bid: false
+  
+Item(i10):
+  name: test
+  tag: fuck
+  price: 99.99
+  picture: 10.jpg
+  email: bamboo@jiljiang.com
+  details: It's a good show
+  bid: false
+  
+Item(i11):
+  name: test
+  tag: fuck
+  price: 99.99
+  picture: 11.jpg
+  email: bamboo@jiljiang.com
+  details: It's a good show
+  bid: false
