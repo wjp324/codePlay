@@ -18,7 +18,7 @@
 <section class="container">
     <ul>
     	#{list items:items, as:'item'}
-    		<li class="item ${Math.random() < 0.33 ? 'red' : (Math.random() < 0.5 ? 'blue' : 'green')}">
+    		<li class="item blue">
 	            <a href="@{Application.detail(item.id)}">
 	                <img src="public/images/${item.picture}" alt="1" />
 	                <p>${item.name}</p>

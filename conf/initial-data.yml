@@ -1,13 +1,13 @@
 Item(i1):
-  name: test
-  tag: fuck
-  price: 99.99
+  name: Money Box
+  tag: Toy
+  price: 19.99
   picture: 1.jpg
-  email: bamboo@jiljiang.com
-  details: It's a good show.It's a good show.It's a good show.It's a good show.It's a good show.It's a good show
+  email: tracy@163.com
+  details: 
   bid: false
-  sell: true
-  soldpeople: Edd Stark
+  sell: false
+  soldpeople: tracy
 
 Item(i2):
   name: test
