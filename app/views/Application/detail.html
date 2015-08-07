@@ -11,12 +11,12 @@
 
 <section class="header">
     <h1>Item Details</h1>
-    <h3>Designed by Harper Koo</h3>
+    <h3>Designed by {eBay Community}</h3>
     <a href="@{Application.index()}">
 		<p class="clickJump">Back to Market</p>
 	</a>
     <a href="@{Application.mybid()}">
-		<p class="clickJump">MY BID</p>
+		<p class="clickJump">MY Interests</p>
 	</a>
 </section>	<!-- end header -->
 
@@ -53,8 +53,9 @@
             </tr>
         </table>
         <a href="@{Application.detail(item.id, !item.bid)}" id="bid">
-            <h1>BID ME</h1>
+            <h1>Wow! I wanna help to sell it!</h1>
         </a>
+        <br>
         <a href="@{Application.index()}" id="bid">
             <h1>Not Interested</h1>
         </a>
@@ -65,7 +66,7 @@
 	setTimeout(function() {
 		$(document).ready(function() {
 			$("#bid").click(function() {
-				alert("Already bid it!");
+				alert("Already added to your Interests!");
 			});
 		});
 	}, 1);

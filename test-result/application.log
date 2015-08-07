@@ -1,7 +1,7 @@
-06 八月 2015 11:29:42,696 INFO  ~ Starting C:\sdks\wamp\www\EasyBuy
-06 八月 2015 11:29:43,454 WARN  ~ You're running Play! in DEV mode
-06 八月 2015 11:29:43,664 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
-06 八月 2015 11:29:49,865 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0 for default
-06 八月 2015 11:29:51,156 INFO  ~ Application 'You sell Me buy eBay' is now started !
-06 八月 2015 11:29:51,291 INFO  ~ [StartUp] init environment...
-06 八月 2015 11:29:53,058 WARN  ~ [DEPRECATION] Encountered positional parameter near line 1, column 30.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+07 八月 2015 09:29:10,489 INFO  ~ Starting C:\sdks\wamp\www\EasyBuy
+07 八月 2015 09:29:11,227 WARN  ~ You're running Play! in DEV mode
+07 八月 2015 09:29:11,396 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+07 八月 2015 09:29:18,714 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0 for default
+07 八月 2015 09:29:19,609 INFO  ~ Application 'You sell Me buy eBay' is now started !
+07 八月 2015 09:29:19,711 INFO  ~ [StartUp] init environment...
+07 八月 2015 09:29:20,759 WARN  ~ [DEPRECATION] Encountered positional parameter near line 1, column 30.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.

@@ -22,7 +22,7 @@ public class Application extends Controller {
 		if(bid) {
 			item.bid = bid;
 			item.save();
-			index();
+			mybid();
 		}
 		renderArgs.put("item", item);
 		render();

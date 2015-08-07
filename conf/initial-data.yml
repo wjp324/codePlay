@@ -10,111 +10,111 @@ Item(i1):
   soldpeople: tracy
 
 Item(i2):
-  name: test
-  tag: fuck
+  name: Handbag
+  tag: Handbag
   price: 99.99
   picture: 2.jpg
-  email: bamboo@jiljiang.com
-  details: It's a good show
+  email: bamboo@ebay.com
+  details: It's a good Handbag
   bid: false
   sell: false
   soldpeople: null
 
 Item(i3):
-  name: test
-  tag: fuck
-  price: 99.99
+  name: Sun Glasses
+  tag: Glasses
+  price: 40
   picture: 3.jpg
-  email: bamboo@jiljiang.com
-  details: It's a good show
+  email: bamboo@ebay.com
+  details: Beautiful Sun Glasses
   bid: false
   sell: true
   soldpeople: John Snow
   
 Item(i4):
-  name: test
-  tag: fuck
-  price: 99.99
+  name: Jacket
+  tag: clothes
+  price: 379.99
   picture: 4.jpg
-  email: bamboo@jiljiang.com
-  details: It's a good show
+  email: bamboo@ebay.com
+  details: Wow! Cool!
   bid: false
   sell: false
   soldpeople: null
   
 Item(i5):
-  name: test
-  tag: fuck
-  price: 99.99
+  name: MK bag
+  tag: Mchael Kors
+  price: 188
   picture: 5.jpg
-  email: bamboo@jiljiang.com
-  details: It's a good show
+  email: bamboo@ebay.com
+  details: It's a good bag
   bid: false
   sell: false
   soldpeople: null
   
 Item(i6):
-  name: test
-  tag: fuck
-  price: 99.99
+  name: MK bag
+  tag: Mchael Kors
+  price: 69
   picture: 6.jpg
-  email: bamboo@jiljiang.com
-  details: It's a good show
+  email: bamboo@ebay.com
+  details: It's a good bag
   bid: false
   sell: false
   soldpeople: null
 
 Item(i7):
-  name: test
-  tag: fuck
-  price: 99.99
+  name: Chair
+  tag: chair
+  price: 29.99
   picture: 7.jpg
-  email: bamboo@jiljiang.com
-  details: It's a good show
+  email: bamboo@ebay.com
+  details: It's a good chair
   bid: false
   sell: false
   soldpeople: null
   
 Item(i8):
-  name: test
-  tag: fuck
-  price: 99.99
-  picture: 8.jpg
-  email: bamboo@jiljiang.com
-  details: It's a good show
+  name: necklace
+  tag: Gold
+  price: 120
+  picture: 9.jpg
+  email: bamboo@ebay.com
+  details: It's beautiful
   bid: false
   sell: false
   soldpeople: null
   
 Item(i9):
-  name: test
-  tag: fuck
-  price: 99.99
-  picture: 9.jpg
-  email: bamboo@jiljiang.com
+  name: You Guess
+  tag: hahaha
+  price: 999.99
+  picture: 8.jpg
+  email: bamboo@ebay.com
   details: It's a good show
   bid: false
   sell: false
   soldpeople: null
   
 Item(i10):
-  name: test
-  tag: fuck
-  price: 99.99
-  picture: 10.jpg
-  email: bamboo@jiljiang.com
+  name: Casio Watch
+  tag: watch
+  price: 799
+  picture: 11.jpg
+  email: bamboo@ebay.com
   details: It's a good show
   bid: false
   sell: false
   soldpeople: null
   
 Item(i11):
-  name: test
-  tag: fuck
-  price: 99.99
-  picture: 11.jpg
-  email: bamboo@jiljiang.com
-  details: It's a good show
+  name: Salt & Pepper
+  tag: pot
+  price: 17
+  picture: 10.jpg
+  email: bamboo@ebay.com
+  details: Buy me! Buy me! Buy me!
   bid: false
   sell: false
   soldpeople: null
